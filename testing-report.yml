@@ -3,8 +3,7 @@
 - summary: |
     Просмотр содержимого на странице открытого товара
   status: pass
-
-    	
+	
 - summary: |
     Переключение фото на странице с товаром
   status: fail
@@ -19,31 +18,31 @@
  
 - summary: |
     Поиск товара с пустым полем для поиска
-  status: pass  
+  status: pass
      
 - summary: |
     Поиск по ключевому слову с несуществующим названием товара
-  status: pass  
+  status: pass
   
 - summary: |
     Поиск c активными фильтрами
-  status: pass  
+  status: pass
  
 - summary: |
     Поиск c по одному символу
-  status: pass  
+  status: pass 
   
 - summary: |
     Поиск товара по категории
-  status: pass  
+  status: pass 
  
 - summary: |
     Поиск товара по пустой категории
-  status: fail  
+  status: fail
   
 - summary: |
     Фильтрация отображаемых на странице товаров по бренду
-  status: pass  
+  status: pass
   
 - summary: |
     Фильтрация категории и бренда отображаемых товарв
@@ -59,31 +58,31 @@
   
 - summary: |
     Фильтрация товаров по цене с отрицательными числами
-  status: fail  
+  status: fail
   
 - summary: |
     Фильтрация товаров по цене с числами через точку
-  status: pass  
+  status: pass 
   
 - summary: |
     Фильтрация товаров по цене с числами через запятую
-  status: pass  
+  status: pass 
   
 - summary: |
     Фильтрация товаров по цене от 0
-  status: pass  
+  status: pass
   
 - summary: 
     Поиск в диапазоне с ведущими нулями
-  status: pass  
+  status: pass 
   
 - summary: |
     Ввод не числовых значений в поле для поиска
-  status: pass  
+  status: pass
 
 - summary: |
     Фильтрация отображаемых на странице товаров в наличии используя все фильтры
-  status: fail  
+  status: fail
 
 - summary: |
     Фильтрация товаров отсутствующих в наличии на складе
@@ -91,27 +90,27 @@
 
 - summary: |
     Скорость загрузки страниц со скорость интернета выше 10мбит/с
-  status: pass  
+  status: pass
 
 - summary: |
     Скорость загрузки страниц со скорость интернета менее 10мбит/с
-  status: pass  
+  status: pass 
 
 - summary: |
     Работа веб-магазина по протоколу HTTPS
-  status: pass  
+  status: pass
 
 - summary: |
     Отсутствие возможности посмотреть содержимое корзины другого пользователя
-  status: pass  
+  status: pass 
 
 - summary: |
     Наличие адаптива мод мобильные устройства
-  status: fail  
+  status: fail
 
 - summary: |
     Работа веб-магазина на различных браузерах последней версии
-  status: pass  
+  status: pass
 
 - summary: |
     Работа сайта при большом количестве одновременных запросах
@@ -119,11 +118,11 @@
 
 - summary: |
     Доступность сайта на различных устройствах
-  status: pass  
+  status: pass
   
 - summary: |
     Оформление добавленного в корзину товара
-  status: pass  
+  status: pass
   
 - summary: |
     Наличие запросов без ошибок на сервер при соответствующих действиях
@@ -131,52 +130,52 @@
   
 - summary: |
     Наличие всех категорий и брендов в фильтре при первичной загрузке сайта
-  status: failed  
+  status: fail
   
 - summary: |
     Блокировка кнопок пагинации с содержимым на одну страницу
-  status: failed  
+  status: fail
   
 - summary: |
     Обнуление значений всех фильтров
-  status: failed  
+  status: fail
   
 - summary: |
     Отсутствие товаров несвязанных с выбранной категорией
-   status: failed 
-  
+   status: fail
+
 - summary: |
     Смена категории при наличии выбранных брендов
-  status: failed  
-  
+  status: fail
+
 - summary: |
     Сохранение выбранных брендов между категориями
-  status: pass  
-  
+  status: pass
+ 
 - summary: |
     Наличие одного заголовка h1 на страницу
-  status: pass  
-  
+  status: pass
+ 
 - summary: |
     Смена языка веб-магазина
   status: fail  
-  
+ 
 - summary: |
     Удаление одного товара из корзины
   status: pass
-  
+ 
 - summary: |
     Наличие информации о добавленных товарах в корзине
-  status: pass  
-  
+  status: pass
+ 
 - summary: |
     Сообщение при отсутствии товаров в корзине
-  status: fail  
-  
+  status: fail
+ 
 - summary: |
     Подтверждение действий при удалении/оформлении товара
-  status: fail  
-  
+  status: fail 
+ 
 - summary: |
     Сохранение данных фильтров при обновлении/перезагрузки страницы
   status: fail
